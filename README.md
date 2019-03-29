@@ -1,12 +1,18 @@
 # clj-aws-s3
 
-## DEPRECATION NOTICE
+## IMPORTANT NOTICE
 
-This project is **DEPRECATED** and **UNMAINTAINED**. A better
-alternative to this library is to use [Amazonica][]. Alternatively,
-you're more than welcome to fork this project.
+This is a fork that I am forced to do to bring in this fix:
+https://github.com/aws/aws-sdk-java/issues/191
 
-[amazonica]: https://github.com/mcohen01/amazonica
+I personally would like to use this:
+https://github.com/cognitect-labs/aws-api but could not due to
+incompatible deps issues in the project that is using it. So is the
+fork.
+
+So please DO NOT USE this lib unless you had to. If you had to, please
+fork it and maintain your own fork.
+
 
 ## Introduction
 
